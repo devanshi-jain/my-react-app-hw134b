@@ -44,7 +44,7 @@ const RatingWidget = () => {
 
   return (
     <div className="rating-container">
-      <h1>CSE 134B HW5 in React</h1>
+      <h1>Rating Widget</h1>
       {submitted ? (
         <p className="star-value">{feedback}</p>
       ) : (
